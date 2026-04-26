@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "patrol": {
+      "command": "dart",
+      "args": [
+        "run",
+        "/FULL/PATH/TO/patrol_mcp/bin/patrol_mcp.dart"
+      ],
+      "env": {
+        "FLUTTER_PROJECT_PATH": "/path/to/your/flutter/app",
+        "PATROL_DEVICE": "iPhone 17 Pro",
+        "PATROL_BUNDLE_ID": "com.kodez.shoppingApp"
+      }
+    }
+  }
+}
