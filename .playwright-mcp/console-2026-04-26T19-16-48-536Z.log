@@ -1,0 +1,5 @@
+[     116ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/static/js/bundle.js:17635
+[     195ms] [LOG] User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 @ http://localhost:3000/static/js/bundle.js:1523
+[     195ms] [LOG] Is Flutter WebView: false @ http://localhost:3000/static/js/bundle.js:1524
+[     196ms] [LOG] User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 @ http://localhost:3000/static/js/bundle.js:1523
+[     196ms] [LOG] Is Flutter WebView: false @ http://localhost:3000/static/js/bundle.js:1524

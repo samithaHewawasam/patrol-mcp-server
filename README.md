@@ -1,6 +1,20 @@
 # Patrol MCP Server
 
-A Model Context Protocol (MCP) server that enables Claude to autonomously run, inspect, and generate Flutter Patrol integration tests.
+[![Dart](https://img.shields.io/badge/Dart-3.0%2B-blue.svg)](https://dart.dev)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![MCP](https://img.shields.io/badge/MCP-Compatible-green.svg)](https://modelcontextprotocol.io/)
+
+A Model Context Protocol (MCP) server that enables AI assistants like Claude to autonomously run, inspect, and generate Flutter [Patrol](https://github.com/leancodepl/patrol) integration tests.
+
+This server bridges the gap between AI-powered development workflows and Flutter E2E testing, making it easier to write, debug, and maintain integration tests through natural language interactions.
+
+## Why Use This?
+
+- **Natural Language Testing**: Write and generate tests using plain English instead of manually coding everything
+- **Faster Debugging**: Quickly inspect widget trees, take screenshots, and analyze test failures
+- **AI-Powered Test Generation**: Automatically generate patrol tests based on your app's current state
+- **Seamless Integration**: Works with Claude Desktop, Claude Code CLI, and any MCP-compatible AI assistant
+- **iOS/Xcode Compatibility**: Fully compatible with iOS 26 and Xcode 26
 
 ## Features
 
@@ -62,31 +76,63 @@ A Model Context Protocol (MCP) server that enables Claude to autonomously run, i
 └──────┘ └───────┘ └───────────┘ └──────────┘ └─────────────┘
 ```
 
+## Quick Start
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/yourusername/patrol-mcp-server.git
+cd patrol-mcp-server/patrol_mcp
+
+# 2. Install dependencies
+dart pub get
+
+# 3. Install patrol_cli globally
+dart pub global activate patrol_cli
+
+# 4. Test the server
+dart run bin/patrol_mcp.dart
+```
+
+The server should start and wait for JSON-RPC input. Press `Ctrl+C` to stop.
+
 ## Installation
 
 ### Prerequisites
 
-- Dart SDK 3.0.0 or higher
-- Flutter SDK
-- Xcode (for iOS testing)
-- patrol_cli 4.3.1: `dart pub global activate patrol_cli`
+Before you begin, ensure you have the following installed:
+
+- **Dart SDK** 3.0.0 or higher ([Install Dart](https://dart.dev/get-dart))
+- **Flutter SDK** ([Install Flutter](https://flutter.dev/docs/get-started/install))
+- **Xcode** (for iOS testing on macOS)
+- **patrol_cli** 4.3.1 or higher:
+  ```bash
+  dart pub global activate patrol_cli
+  ```
+
+Make sure Dart global binaries are in your PATH:
+```bash
+export PATH="$PATH":"$HOME/.pub-cache/bin"
+```
 
 ### Setup
 
-1. Clone or copy the patrol_mcp directory to your machine
+1. Clone or download this repository:
+   ```bash
+   git clone https://github.com/yourusername/patrol-mcp-server.git
+   cd patrol-mcp-server/patrol_mcp
+   ```
 
 2. Install dependencies:
-```bash
-cd patrol_mcp
-dart pub get
-```
+   ```bash
+   dart pub get
+   ```
 
-3. Test the server:
-```bash
-dart run bin/patrol_mcp.dart
-```
+3. Verify the installation:
+   ```bash
+   dart run bin/patrol_mcp.dart
+   ```
 
-The server should start and wait for JSON-RPC input.
+   The server should start and display a message indicating it's ready. Press `Ctrl+C` to stop.
 
 ## Configuration
 
@@ -427,18 +473,19 @@ dart analyze
 dart format .
 ```
 
-## License
-
-This MCP server is part of the Patrol testing framework ecosystem.
-
 ## Contributing
 
-Contributions are welcome! Please ensure:
-- All tests pass
-- Code is formatted with `dart format`
-- No analyzer warnings with `dart analyze`
-- Error handling follows the structured error pattern
-- Documentation is updated
+We welcome contributions from the community! Whether you're fixing bugs, adding features, or improving documentation, your help is appreciated.
+
+Please read our [Contributing Guide](CONTRIBUTING.md) for details on:
+- Code of Conduct
+- Development workflow
+- Coding standards
+- How to submit pull requests
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Related Projects
 
@@ -448,7 +495,25 @@ Contributions are welcome! Please ensure:
 
 ## Support
 
-For issues related to:
-- **MCP server**: Open an issue in this repository
-- **Patrol framework**: See [Patrol documentation](https://patrol.leancode.co/)
-- **Claude integration**: Contact Anthropic support
+### Getting Help
+
+- **Issues**: Found a bug or have a feature request? [Open an issue](https://github.com/yourusername/patrol-mcp-server/issues)
+- **Discussions**: Questions or ideas? Start a [discussion](https://github.com/yourusername/patrol-mcp-server/discussions)
+- **Documentation**: Check our [detailed guides](CLAUDE.md) and [troubleshooting section](#troubleshooting)
+
+### Related Resources
+
+- **Patrol Framework**: [Official Documentation](https://patrol.leancode.co/)
+- **MCP Specification**: [Model Context Protocol](https://modelcontextprotocol.io/)
+- **Claude**: [Anthropic's AI Assistant](https://claude.ai/)
+
+## Acknowledgments
+
+This project builds upon the excellent work of:
+- The [Patrol team](https://github.com/leancodepl/patrol) for creating a powerful Flutter E2E testing framework
+- [Anthropic](https://anthropic.com/) for developing the Model Context Protocol
+- The Flutter community for their continuous support and feedback
+
+---
+
+Made with ❤️ for the Flutter testing community

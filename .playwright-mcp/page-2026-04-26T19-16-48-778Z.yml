@@ -1,0 +1,305 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - link "ProductStore" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - heading "ProductStore" [level=1] [ref=e8]
+      - navigation [ref=e9]:
+        - link "Home" [ref=e10] [cursor=pointer]:
+          - /url: /
+        - link "Products" [ref=e11] [cursor=pointer]:
+          - /url: /
+        - link "About" [ref=e12] [cursor=pointer]:
+          - /url: "#about"
+        - link "Contact" [ref=e13] [cursor=pointer]:
+          - /url: "#contact"
+  - generic [ref=e14]:
+    - banner [ref=e15]:
+      - heading "Products" [level=1] [ref=e16]
+      - paragraph [ref=e17]: 28 products available
+    - generic [ref=e18]:
+      - textbox "Search products..." [ref=e20]
+      - generic [ref=e21]:
+        - button "All" [ref=e22] [cursor=pointer]
+        - button "Electronics" [ref=e23] [cursor=pointer]
+        - button "Fashion" [ref=e24] [cursor=pointer]
+        - button "Home & Living" [ref=e25] [cursor=pointer]
+        - button "Sports" [ref=e26] [cursor=pointer]
+    - generic [ref=e27]:
+      - generic [ref=e28] [cursor=pointer]:
+        - img "Wireless Headphones" [ref=e29]
+        - generic [ref=e30]:
+          - generic [ref=e31]: Electronics
+          - heading "Wireless Headphones" [level=3] [ref=e32]
+          - paragraph [ref=e33]: Premium noise-cancelling wireless headphones with 30-hour battery life
+          - generic [ref=e34]:
+            - generic [ref=e35]: $299.99
+            - generic [ref=e36]: ⭐ 4.8
+      - generic [ref=e37] [cursor=pointer]:
+        - img "Smart Watch JBL" [ref=e38]
+        - generic [ref=e39]:
+          - generic [ref=e40]: Electronics
+          - heading "Smart Watch JBL" [level=3] [ref=e41]
+          - paragraph [ref=e42]: Fitness tracking smartwatch with heart rate monitor and GPS
+          - generic [ref=e43]:
+            - generic [ref=e44]: $399.99
+            - generic [ref=e45]: ⭐ 4.6
+      - generic [ref=e46] [cursor=pointer]:
+        - img "Bluetooth Speaker" [ref=e47]
+        - generic [ref=e48]:
+          - generic [ref=e49]: Electronics
+          - heading "Bluetooth Speaker" [level=3] [ref=e50]
+          - paragraph [ref=e51]: Portable waterproof speaker with 360-degree sound
+          - generic [ref=e52]:
+            - generic [ref=e53]: $149.99
+            - generic [ref=e54]: ⭐ 4.7
+      - generic [ref=e55] [cursor=pointer]:
+        - img "Laptop Stand" [ref=e56]
+        - generic [ref=e57]:
+          - generic [ref=e58]: Electronics
+          - heading "Laptop Stand" [level=3] [ref=e59]
+          - paragraph [ref=e60]: Ergonomic aluminum laptop stand with adjustable height
+          - generic [ref=e61]:
+            - generic [ref=e62]: $49.99
+            - generic [ref=e63]: ⭐ 4.5
+      - generic [ref=e64] [cursor=pointer]:
+        - img "USB-C Hub" [ref=e65]
+        - generic [ref=e66]:
+          - generic [ref=e67]: Electronics
+          - heading "USB-C Hub" [level=3] [ref=e68]
+          - paragraph [ref=e69]: 7-in-1 USB-C hub with HDMI, USB 3.0, and card reader
+          - generic [ref=e70]:
+            - generic [ref=e71]: $79.99
+            - generic [ref=e72]: ⭐ 4.4
+      - generic [ref=e73] [cursor=pointer]:
+        - img "Wireless Mouse" [ref=e74]
+        - generic [ref=e75]:
+          - generic [ref=e76]: Electronics
+          - heading "Wireless Mouse" [level=3] [ref=e77]
+          - paragraph [ref=e78]: Ergonomic wireless mouse with precision tracking
+          - generic [ref=e79]:
+            - generic [ref=e80]: $39.99
+            - generic [ref=e81]: ⭐ 4.6
+      - generic [ref=e82] [cursor=pointer]:
+        - img "Leather Wallet" [ref=e83]
+        - generic [ref=e84]:
+          - generic [ref=e85]: Fashion
+          - heading "Leather Wallet" [level=3] [ref=e86]
+          - paragraph [ref=e87]: Genuine leather bifold wallet with RFID protection
+          - generic [ref=e88]:
+            - generic [ref=e89]: $59.99
+            - generic [ref=e90]: ⭐ 4.7
+      - generic [ref=e91] [cursor=pointer]:
+        - img "Sunglasses" [ref=e92]
+        - generic [ref=e93]:
+          - generic [ref=e94]: Fashion
+          - heading "Sunglasses" [level=3] [ref=e95]
+          - paragraph [ref=e96]: Polarized sunglasses with UV protection
+          - generic [ref=e97]:
+            - generic [ref=e98]: $129.99
+            - generic [ref=e99]: ⭐ 4.5
+      - generic [ref=e100] [cursor=pointer]:
+        - img "Backpack" [ref=e101]
+        - generic [ref=e102]:
+          - generic [ref=e103]: Fashion
+          - heading "Backpack" [level=3] [ref=e104]
+          - paragraph [ref=e105]: Water-resistant laptop backpack with USB charging port
+          - generic [ref=e106]:
+            - generic [ref=e107]: $89.99
+            - generic [ref=e108]: ⭐ 4.8
+      - generic [ref=e109] [cursor=pointer]:
+        - img "Running Shoes" [ref=e110]
+        - generic [ref=e111]:
+          - generic [ref=e112]: Fashion
+          - heading "Running Shoes" [level=3] [ref=e113]
+          - paragraph [ref=e114]: Lightweight breathable running shoes with cushioned sole
+          - generic [ref=e115]:
+            - generic [ref=e116]: $119.99
+            - generic [ref=e117]: ⭐ 4.6
+      - generic [ref=e118] [cursor=pointer]:
+        - img "Baseball Cap" [ref=e119]
+        - generic [ref=e120]:
+          - generic [ref=e121]: Fashion
+          - heading "Baseball Cap" [level=3] [ref=e122]
+          - paragraph [ref=e123]: Adjustable cotton baseball cap with embroidered logo
+          - generic [ref=e124]:
+            - generic [ref=e125]: $24.99
+            - generic [ref=e126]: ⭐ 4.4
+      - generic [ref=e127] [cursor=pointer]:
+        - img "Leather Belt" [ref=e128]
+        - generic [ref=e129]:
+          - generic [ref=e130]: Fashion
+          - heading "Leather Belt" [level=3] [ref=e131]
+          - paragraph [ref=e132]: Reversible genuine leather belt with classic buckle
+          - generic [ref=e133]:
+            - generic [ref=e134]: $44.99
+            - generic [ref=e135]: ⭐ 4.5
+      - generic [ref=e136] [cursor=pointer]:
+        - img "Coffee Maker" [ref=e137]
+        - generic [ref=e138]:
+          - generic [ref=e139]: Home & Living
+          - heading "Coffee Maker" [level=3] [ref=e140]
+          - paragraph [ref=e141]: Programmable coffee maker with thermal carafe
+          - generic [ref=e142]:
+            - generic [ref=e143]: $79.99
+            - generic [ref=e144]: ⭐ 4.7
+      - generic [ref=e145] [cursor=pointer]:
+        - img "Desk Lamp" [ref=e146]
+        - generic [ref=e147]:
+          - generic [ref=e148]: Home & Living
+          - heading "Desk Lamp" [level=3] [ref=e149]
+          - paragraph [ref=e150]: LED desk lamp with adjustable brightness and color temperature
+          - generic [ref=e151]:
+            - generic [ref=e152]: $49.99
+            - generic [ref=e153]: ⭐ 4.6
+      - generic [ref=e154] [cursor=pointer]:
+        - img "Wall Clock" [ref=e155]
+        - generic [ref=e156]:
+          - generic [ref=e157]: Home & Living
+          - heading "Wall Clock" [level=3] [ref=e158]
+          - paragraph [ref=e159]: Modern minimalist wall clock with silent movement
+          - generic [ref=e160]:
+            - generic [ref=e161]: $34.99
+            - generic [ref=e162]: ⭐ 4.5
+      - generic [ref=e163] [cursor=pointer]:
+        - img "Throw Pillow Set" [ref=e164]
+        - generic [ref=e165]:
+          - generic [ref=e166]: Home & Living
+          - heading "Throw Pillow Set" [level=3] [ref=e167]
+          - paragraph [ref=e168]: Set of 2 decorative throw pillows with geometric pattern
+          - generic [ref=e169]:
+            - generic [ref=e170]: $39.99
+            - generic [ref=e171]: ⭐ 4.4
+      - generic [ref=e172] [cursor=pointer]:
+        - img "Aromatherapy Diffuser" [ref=e173]
+        - generic [ref=e174]:
+          - generic [ref=e175]: Home & Living
+          - heading "Aromatherapy Diffuser" [level=3] [ref=e176]
+          - paragraph [ref=e177]: Ultrasonic essential oil diffuser with LED lights
+          - generic [ref=e178]:
+            - generic [ref=e179]: $29.99
+            - generic [ref=e180]: ⭐ 4.7
+      - generic [ref=e181] [cursor=pointer]:
+        - img "Storage Basket" [ref=e182]
+        - generic [ref=e183]:
+          - generic [ref=e184]: Home & Living
+          - heading "Storage Basket" [level=3] [ref=e185]
+          - paragraph [ref=e186]: Woven storage basket with handles for organization
+          - generic [ref=e187]:
+            - generic [ref=e188]: $24.99
+            - generic [ref=e189]: ⭐ 4.5
+      - generic [ref=e190] [cursor=pointer]:
+        - img "Yoga Mat" [ref=e191]
+        - generic [ref=e192]:
+          - generic [ref=e193]: Sports
+          - heading "Yoga Mat" [level=3] [ref=e194]
+          - paragraph [ref=e195]: Non-slip exercise yoga mat with carrying strap
+          - generic [ref=e196]:
+            - generic [ref=e197]: $34.99
+            - generic [ref=e198]: ⭐ 4.8
+      - generic [ref=e199] [cursor=pointer]:
+        - img "Dumbbell Set" [ref=e200]
+        - generic [ref=e201]:
+          - generic [ref=e202]: Sports
+          - heading "Dumbbell Set" [level=3] [ref=e203]
+          - paragraph [ref=e204]: Adjustable dumbbell set with storage rack
+          - generic [ref=e205]:
+            - generic [ref=e206]: $199.99
+            - generic [ref=e207]: ⭐ 4.7
+      - generic [ref=e208] [cursor=pointer]:
+        - img "Water Bottle" [ref=e209]
+        - generic [ref=e210]:
+          - generic [ref=e211]: Sports
+          - heading "Water Bottle" [level=3] [ref=e212]
+          - paragraph [ref=e213]: Insulated stainless steel water bottle keeps drinks cold for 24 hours
+          - generic [ref=e214]:
+            - generic [ref=e215]: $29.99
+            - generic [ref=e216]: ⭐ 4.6
+      - generic [ref=e217] [cursor=pointer]:
+        - img "Resistance Bands" [ref=e218]
+        - generic [ref=e219]:
+          - generic [ref=e220]: Sports
+          - heading "Resistance Bands" [level=3] [ref=e221]
+          - paragraph [ref=e222]: Set of 5 resistance bands with different strength levels
+          - generic [ref=e223]:
+            - generic [ref=e224]: $24.99
+            - generic [ref=e225]: ⭐ 4.5
+      - generic [ref=e226] [cursor=pointer]:
+        - img "Jump Rope" [ref=e227]
+        - generic [ref=e228]:
+          - generic [ref=e229]: Sports
+          - heading "Jump Rope" [level=3] [ref=e230]
+          - paragraph [ref=e231]: Speed jump rope with adjustable length and counter
+          - generic [ref=e232]:
+            - generic [ref=e233]: $19.99
+            - generic [ref=e234]: ⭐ 4.4
+      - generic [ref=e235] [cursor=pointer]:
+        - img "Gym Bag" [ref=e236]
+        - generic [ref=e237]:
+          - generic [ref=e238]: Sports
+          - heading "Gym Bag" [level=3] [ref=e239]
+          - paragraph [ref=e240]: Spacious gym duffel bag with shoe compartment
+          - generic [ref=e241]:
+            - generic [ref=e242]: $49.99
+            - generic [ref=e243]: ⭐ 4.6
+      - generic [ref=e244] [cursor=pointer]:
+        - img "Tennis Racket" [ref=e245]
+        - generic [ref=e246]:
+          - generic [ref=e247]: Sports
+          - heading "Tennis Racket" [level=3] [ref=e248]
+          - paragraph [ref=e249]: Professional grade tennis racket with carbon fiber frame
+          - generic [ref=e250]:
+            - generic [ref=e251]: $159.99
+            - generic [ref=e252]: ⭐ 4.7
+      - generic [ref=e253] [cursor=pointer]:
+        - img "Basketball" [ref=e254]
+        - generic [ref=e255]:
+          - generic [ref=e256]: Sports
+          - heading "Basketball" [level=3] [ref=e257]
+          - paragraph [ref=e258]: Official size basketball with superior grip
+          - generic [ref=e259]:
+            - generic [ref=e260]: $39.99
+            - generic [ref=e261]: ⭐ 4.5
+      - generic [ref=e262] [cursor=pointer]:
+        - img "Foam Roller" [ref=e263]
+        - generic [ref=e264]:
+          - generic [ref=e265]: Sports
+          - heading "Foam Roller" [level=3] [ref=e266]
+          - paragraph [ref=e267]: High-density foam roller for muscle recovery
+          - generic [ref=e268]:
+            - generic [ref=e269]: $29.99
+            - generic [ref=e270]: ⭐ 4.6
+      - generic [ref=e271] [cursor=pointer]:
+        - img "Cycling Gloves" [ref=e272]
+        - generic [ref=e273]:
+          - generic [ref=e274]: Sports
+          - heading "Cycling Gloves" [level=3] [ref=e275]
+          - paragraph [ref=e276]: Padded cycling gloves with breathable mesh
+          - generic [ref=e277]:
+            - generic [ref=e278]: $24.99
+            - generic [ref=e279]: ⭐ 4.4
+  - contentinfo [ref=e280]:
+    - generic [ref=e281]:
+      - generic [ref=e282]:
+        - heading "About Us" [level=3] [ref=e283]
+        - paragraph [ref=e284]: Your trusted online store for quality products.
+      - generic [ref=e285]:
+        - heading "Quick Links" [level=3] [ref=e286]
+        - list [ref=e287]:
+          - listitem [ref=e288]:
+            - link "Privacy Policy" [ref=e289] [cursor=pointer]:
+              - /url: "#privacy"
+          - listitem [ref=e290]:
+            - link "Terms of Service" [ref=e291] [cursor=pointer]:
+              - /url: "#terms"
+          - listitem [ref=e292]:
+            - link "Shipping Info" [ref=e293] [cursor=pointer]:
+              - /url: "#shipping"
+          - listitem [ref=e294]:
+            - link "Returns" [ref=e295] [cursor=pointer]:
+              - /url: "#returns"
+      - generic [ref=e296]:
+        - heading "Contact" [level=3] [ref=e297]
+        - paragraph [ref=e298]: "Email: info@productstore.com"
+        - paragraph [ref=e299]: "Phone: (555) 123-4567"
+    - paragraph [ref=e301]: © 2026 ProductStore. All rights reserved.

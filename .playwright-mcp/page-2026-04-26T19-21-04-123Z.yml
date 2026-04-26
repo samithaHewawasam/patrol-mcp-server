@@ -1,0 +1,68 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - link "ProductStore" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - heading "ProductStore" [level=1] [ref=e8]
+      - navigation [ref=e9]:
+        - link "Home" [ref=e10] [cursor=pointer]:
+          - /url: /
+        - link "Products" [ref=e11] [cursor=pointer]:
+          - /url: /
+        - link "About" [ref=e12] [cursor=pointer]:
+          - /url: "#about"
+        - link "Contact" [ref=e13] [cursor=pointer]:
+          - /url: "#contact"
+  - generic [ref=e330]: 🛒 1 item in cart
+  - generic [ref=e302]:
+    - button "← Back to Products" [ref=e303] [cursor=pointer]
+    - generic [ref=e304]:
+      - img "Wireless Headphones" [ref=e306]
+      - generic [ref=e307]:
+        - generic [ref=e308]: Electronics
+        - heading "Wireless Headphones" [level=1] [ref=e309]
+        - generic [ref=e310]:
+          - generic [ref=e311]: ⭐ 4.8
+          - generic [ref=e312]: (124 reviews)
+        - paragraph [ref=e313]: Premium noise-cancelling wireless headphones with 30-hour battery life
+        - generic [ref=e314]:
+          - heading "Features:" [level=3] [ref=e315]
+          - list [ref=e316]:
+            - listitem [ref=e317]: Premium quality materials
+            - listitem [ref=e318]: 1-year warranty included
+            - listitem [ref=e319]: Free shipping on orders over $50
+            - listitem [ref=e320]: 30-day money-back guarantee
+        - generic [ref=e321]:
+          - generic [ref=e322]: $299.99
+          - generic [ref=e323]:
+            - generic [ref=e324]: "Quantity:"
+            - generic [ref=e325]:
+              - button "-" [ref=e326] [cursor=pointer]
+              - generic [ref=e327]: "1"
+              - button "+" [ref=e328] [cursor=pointer]
+          - button "✓ Added to Cart" [active] [ref=e331] [cursor=pointer]
+  - contentinfo [ref=e280]:
+    - generic [ref=e281]:
+      - generic [ref=e282]:
+        - heading "About Us" [level=3] [ref=e283]
+        - paragraph [ref=e284]: Your trusted online store for quality products.
+      - generic [ref=e285]:
+        - heading "Quick Links" [level=3] [ref=e286]
+        - list [ref=e287]:
+          - listitem [ref=e288]:
+            - link "Privacy Policy" [ref=e289] [cursor=pointer]:
+              - /url: "#privacy"
+          - listitem [ref=e290]:
+            - link "Terms of Service" [ref=e291] [cursor=pointer]:
+              - /url: "#terms"
+          - listitem [ref=e292]:
+            - link "Shipping Info" [ref=e293] [cursor=pointer]:
+              - /url: "#shipping"
+          - listitem [ref=e294]:
+            - link "Returns" [ref=e295] [cursor=pointer]:
+              - /url: "#returns"
+      - generic [ref=e296]:
+        - heading "Contact" [level=3] [ref=e297]
+        - paragraph [ref=e298]: "Email: info@productstore.com"
+        - paragraph [ref=e299]: "Phone: (555) 123-4567"
+    - paragraph [ref=e301]: © 2026 ProductStore. All rights reserved.
